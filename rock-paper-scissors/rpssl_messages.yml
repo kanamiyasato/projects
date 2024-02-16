@@ -1,0 +1,37 @@
+welcome: Welcome to Rock, Paper, Scissors, Lizard, Spock!
+
+instruction: It's you vs the computer. First to 3 points wins!
+
+valid_input: Invalid input. Please try again.
+
+play_again: Do you want to play again? (Y for yes, N for no)
+
+goodbye: Thanks for playing. Goodbye!
+
+choices: |
+  Choose one of the following by typing:
+  'r' for rock
+  'p' for paper
+  's' for scissors
+  'k' for spock
+  'l' for lizard
+
+scissorspaper: Scissors cuts paper...
+   
+paperrock: Paper covers rock...
+   
+rocklizard: Rock crushes lizard...
+   
+lizardspock: Lizard poisons Spock...
+   
+spockscissors: Spock smashes scissors...
+   
+scissorslizard: Scissors decapitates lizard...
+   
+lizardpaper: Lizard eats paper...
+   
+paperspock: Paper disproves Spock...
+   
+spockrock: Spock vaporizes rock...
+   
+rockscissors: Rock crushes scissors...
