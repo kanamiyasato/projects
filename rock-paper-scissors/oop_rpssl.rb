@@ -27,7 +27,6 @@ module InvalidFunction
   def invalid_input
     prompt(MESSAGES['valid_input'])
     sleep(0.80)
-    # system('clear')
   end
 end
 
@@ -103,7 +102,6 @@ class Human < Player
     choice = nil
     prompt(MESSAGES['choices'])
     loop do
-      # prompt(MESSAGES['choices'])
       choice = gets.chomp
       break if Move.new(choice).valid_input?(choice)
 
